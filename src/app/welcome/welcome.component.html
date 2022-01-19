@@ -1,0 +1,10 @@
+<div id="comp-render" *ngIf="displayWelcome">
+    <h1>Welcome User</h1>
+    <button (click)="showAbout();">Click</button>
+</div>
+
+
+
+<div id="comp-render" *ngIf="displayAbout">
+    <app-about></app-about>
+</div>
